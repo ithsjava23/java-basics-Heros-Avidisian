@@ -1,5 +1,4 @@
 package org.example;
-import java.util.Objects;
 import java.util.Scanner;
 public class App {
     public static void main(String[] args) {
@@ -15,5 +14,11 @@ public class App {
             e. Avsluta
             """;
         System.out.println(meny);
+        int option1 = sc.nextInt();
+        if () {
+            System.out.println("Elpriser under 24h");
+        } else if () {
+            
+        }
     }
 }
