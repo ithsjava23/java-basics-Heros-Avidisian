@@ -16,15 +16,10 @@ public class App {
                 """;
         System.out.println(meny);
         int option1 = sc.nextInt();
-        int option2 = sc.nextInt();
         if (option1 == 1) {
             System.out.println("Skriv in elpriser under det senaste dygnet");
             for (int i = 0; i < 24; i++)
                 inputs[i] = sc.nextInt();
         }
-        else if (option2==2)
-
-
-
     }
 }
